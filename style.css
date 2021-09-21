@@ -59,7 +59,8 @@ button:hover{
 
 #output {
   margin: 1rem 0;
-  text-shadow: 1px 1px rgb(161, 11, 11);
+  color: orangered;
+  text-shadow: 1px 1px rgb(250, 244, 240);
 }
 
 /* footer */
