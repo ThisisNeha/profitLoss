@@ -34,11 +34,9 @@ input {
   margin: 1rem;
   padding: 0.5rem;
   border: 2px solid rgb(4, 142, 197);
+  
 }
 
-label{
-  text-shadow: 1px 1px rgb(34, 34, 233);
-}
 
 button {
   background-color: #002452;

@@ -6,7 +6,6 @@ const outputDiv = document.querySelector("#output");
 
 function buttonHandler() {
   const ip = Number(initialValue.value);
-  
   const qty = Number(stockValue.value);
   const curr = Number(currentValue.value);
 
