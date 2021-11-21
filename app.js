@@ -8,15 +8,20 @@ function buttonHandler() {
   const ip = Number(initialValue.value);
   const qty = Number(stockValue.value);
   const curr = Number(currentValue.value);
-
+if(ip>0&& qty>0 && curr>0){
   calculateProfitLoss(ip, qty, curr);
+}else{
+  showOutput(`Not valid input.`);
+  outputDiv.style.color="red";
+}
 }
 
 function calculateProfitLoss(initial, quantity, current) {
+  
 if (initial > current){
   var loss = (initial - current)*quantity ; 
   var lossPercent = (loss/initial)*100;
-  outputDiv.style.color="orangered";
+  outputDiv.style.color="rgb(175, 2, 2)";
   showOutput(`Oops! your loss is ${loss} and loss percent is ${lossPercent.toFixed(2)} %🙄.`); 
 }
 else if(initial<current){
@@ -27,6 +32,7 @@ else if(initial<current){
 }
 else{
   showOutput(`No pain no gain and no gain pain 😬!`);
+  outputDiv.style.color="green";
 }
 }
 

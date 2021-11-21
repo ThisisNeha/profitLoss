@@ -23,7 +23,7 @@ h1 {
   text-shadow: 2px 2px blue;
 }
 
-p{
+p {
   margin: 0 0 1rem;
   font-size: large;
 }
@@ -34,7 +34,7 @@ input {
   margin: 1rem;
   padding: 0.5rem;
   border: 2px solid rgb(4, 142, 197);
-  
+
 }
 
 
@@ -50,32 +50,31 @@ button {
   border: 2px solid rgb(251, 251, 252);
 }
 
-button:hover{
+button:hover {
   box-shadow: 2px 2px wheat;
   text-shadow: 1px 1px wheat;
 }
 
 #output {
+  font-weight: 900;
   margin: 1rem 0;
-  color: orangered;
-  text-shadow: 1px 1px rgb(250, 244, 240);
 }
 
 /* footer */
 
-footer{
+footer {
   position: absolute;
-  bottom:0px;
+  bottom: 0px;
 }
 
-.copy-right{
+.copy-right {
   font-size: 0.9rem;
   color: #086ff5;
   margin: 5px;
   padding: 1rem;
 }
 
-img{
+img {
   width: 23%;
   padding-left: 5px;
 }
